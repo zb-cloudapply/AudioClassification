@@ -6,8 +6,12 @@ macls.egg-info/
 dataset/
 log/
 output/
-models/
+#models/
 pretrained_models/
 feature_models/
 temp/
-test*.py
+#test*.py
+*.tar.gz
+*.zip
+*.rar
+*.7z
