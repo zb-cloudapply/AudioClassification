@@ -17,7 +17,7 @@ print_arguments(args=args)
 # 获取训练器
 trainer = MAClsTrainer(configs=args.configs, use_gpu=args.use_gpu)
 
-# 开始评估
+# 开始模型评估
 start = time.time()
 loss, accuracy = trainer.evaluate(resume_model=args.resume_model,
                                   save_matrix_path=args.save_matrix_path)
